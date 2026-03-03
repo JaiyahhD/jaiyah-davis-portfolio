@@ -240,10 +240,18 @@ h2 {
   line-height: 1.7;
 }
 
-.project-links {
-  display: flex;
-  gap: 20px;
-  margin-top: 14px;
+.project-link,
+.project-link:visited {
+  color: #C08497;
+  text-decoration: none;
+}
+
+.project-link:hover {
+  opacity: 0.75;
+}
+
+.project-link:visited {
+  color: #C08497;
 }
 
 .building-card {
